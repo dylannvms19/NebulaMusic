@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nébula Music - Registro</title>
+    </head>
+    <body>
+        <main class="auth-container">
+            <section class="auth-card">
+                <form method="POST" action="/crear-cuenta">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" minlength="3">
+                    <br><br>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo">
+                    <br><br>
+                    <label for="contrasenia">Contraseña:</label>
+                    <input type="password" id="contrasenia" name="contrasenia">
+                    <br><br>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
